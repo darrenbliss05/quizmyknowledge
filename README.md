@@ -1,5 +1,5 @@
-# quizme
-The quizme tool was born out of the desire to expand my knowledge of Ruby, to 
+# quizmyknowledge
+The quizmyknowledge tool was born out of the desire to expand my knowledge of Ruby, to 
 learn about shoes, and provide a quizing program to reinforce learning. I could
 not find any good free tools that allows someone not in the education system to
 effectively create personal quizes to test your knowledge on a topic that you
@@ -40,9 +40,9 @@ The basic is usage is that you will be fiirst asked what file to opne and then i
 move to the enxt question, very simple interface.
 
 ## Downloading
-The download direction contains the shoed up version of quizme for windows. This
+The download direction contains the shoed up version of quizmyknowledge for windows. This
 will automatically install shoes on your windows system to enable runing of 
-quizme. 
+quizmyknowledge. 
 
 The <repo>/quizes direction contains the sample file binary_conversion.quiz. 
 
