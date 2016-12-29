@@ -64,7 +64,7 @@ revsion 0.5: Initial revison of the application. Basic features are in place
   1. Presents quesitons in a random order
   1. provides feedback with the correct answer
   1. Support mulit-choice questions using the answer options
- ### known issues:
+### known issues:
   1. If the json file format is broken then the application hangs.
   1. This version does not count the run of questions or tell 
                    you when you have reach the end. 
