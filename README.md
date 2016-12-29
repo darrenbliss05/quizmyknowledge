@@ -39,6 +39,24 @@ buttons "next question" and "exit: Pretty obvious
 The basic is usage is that you will be fiirst asked what file to opne and then it will present you with the first question. Use the "next question" button to 
 move to the enxt question, very simple interface.
 
+Downloading
+The download direction contains the shoed up version of quizme for windows. This
+will automatically install shoes on your windows system to enable runing of 
+quizme. 
+
+The <repo>/quizes direction contains the sample file binary_conversion.quiz. 
+
+
+Json file format
+In rev 0.5 the file format is a simple json file with three main keys that 
+are repeated in blocks. For exact details look at quizes/binary_conversion.quiz. 
+
+question: This contains the string text of the question to ask.
+
+options: This list of answer options to add below the question. 
+
+answer: This is the answer to the quesiton.
+
 revsion 0.5: Initial revison of the application. Basic features are in place 
              but there really in not any error checking in place. 
              feature list:
