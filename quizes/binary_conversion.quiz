@@ -1,0 +1,61 @@
+[{
+		"question": "convert 254 to binary",
+		"options": {},
+		"answer": "1111 1110"
+	}, {
+		"question": "convert 252 to binary",
+		"options": {},
+		"answer": "1111 1100"
+	}, {
+		"question": "convert 248 to binary",
+		"options": {
+			"a": "1110 0000",
+			"b": "1111 1000"
+		},
+		"answer": "b"
+	}, {
+		"question": "convert 240 to binary",
+		"options": {},
+		"answer": "1111 0000"
+	}, {
+		"question": "convert 224 to binary",
+		"options": {},
+		"answer": "1110 0000"
+	}, {
+		"question": "convert 192 to binary",
+		"options": {},
+		"answer": "1100 0000"
+	}, {
+		"question": "convert 128 to binary",
+		"options": {},
+		"answer": "1000 0000"
+	}, {
+		"question": "convert 1110 0000 to decimal",
+		"options": {},
+		"answer": "224"
+	}, {
+		"question": "convert 1000 0000 to decimal",
+		"options": {},
+		"answer": "128"
+	}, {
+		"question": "convert 1100 0000 to decimal",
+		"options": {},
+		"answer": "192"
+	}, {
+		"question": "convert 1111 0000 to decimal",
+		"options": {},
+		"answer": "240"
+	}, {
+		"question": "convert 1111 1000 to decimal",
+		"options": {},
+		"answer": "248"
+	}, {
+		"question": "convert 1111 1100 to decimal",
+		"options": {},
+		"answer": "252"
+	}, {
+		"question": "convert 1111 1110 to decimal",
+		"options": {},
+		"answer": "254"
+	}
+]
