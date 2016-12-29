@@ -57,6 +57,7 @@ options: This list of answer options to add below the question.
 
 answer: This is the answer to the quesiton.
 
+# history
 revsion 0.5: Initial revison of the application. Basic features are in place 
              but there really in not any error checking in place. 
              feature list:
