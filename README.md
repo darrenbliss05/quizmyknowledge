@@ -57,7 +57,14 @@ options: This list of answer options to add below the question.
 
 answer: This is the answer to the quesiton.
 
-## history
+##Issues
+revision 0.6
+  1. refactored the code. fixing a bug with muli-choice not working if it is the
+     first question. Redundent code all moved to a function
+  1. Multipe choice answers are now put in random order. it was too easy to
+     memorize the letter for a specific question instead of looking at the 
+     options. 
+  1. Swapped exit app and next question buttons.  
 revsion 0.5: Initial revison of the application. Basic features are in place 
              but there really in not any error checking in place. 
              feature list:
@@ -65,6 +72,11 @@ revsion 0.5: Initial revison of the application. Basic features are in place
   1. provides feedback with the correct answer
   1. Support mulit-choice questions using the answer options
 ### known issues:
+  1. On windows shoes seems to cache the quizmyknowledge in 
+    c:/user/<user>/appdata/local/Temp/quizmyknowledge.rb 
+    It looks as if this the version that is always used and evern installing 
+    a new exe does not use the new version. Remove quizmyknowledge.rb from the 
+    Temp directory if you install a new version.
   1. If the json file format is broken then the application hangs.
   1. This version does not count the run of questions or tell 
                    you when you have reach the end. 
