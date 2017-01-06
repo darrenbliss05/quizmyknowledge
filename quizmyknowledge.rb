@@ -46,7 +46,8 @@ foobar = JSON.parse(fileinput)
 key = @bar.pop()
    @question.text =  strong("Question."), key['question'] 
    $option_list = ""
-   for opt in key['options'].each do
+   #for opt in key['options'].each do
+   for opt in key['options'] do
        $option_list.append("#{opt[0]} ", opt[opt.length() -1 ], "\n")
    end
    @options.text = $option_list  
